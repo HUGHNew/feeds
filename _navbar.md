@@ -1,2 +1,3 @@
 - 主页
   - [GitHub](https://github.com/HUGHNew/)
+  - [GitEE](https://gitee.com/hughnew)
