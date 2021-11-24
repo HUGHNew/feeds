@@ -16,7 +16,7 @@
 <body>
   <div id="app"></div>
   <script>
-    var footer_string = [
+    let footer_string = [
       // '<div>',
       '<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091"',
       'style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">',
@@ -55,10 +55,10 @@
         height: "3px",
       },
       footer: {
-        copy: footer_string,
-        auth: '川公网安备 51012202001091号',
+        copy: '<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091">川公网安备 51012202001091号</a>',
+        auth: ' ',
         pre: '<hr/>',
-        style: 'width:300px;margin:0 auto; padding:20px 0;',
+        style: 'align:center;height:20px;line-height:20px;margin: 0 auto; color:#939393;',
       },
     }
   </script>
@@ -71,7 +71,7 @@
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  <footer>
+  <!-- <footer>
     <div style="width:300px;margin:0 auto; padding:20px 0;">
       <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091"
         style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
@@ -80,7 +80,7 @@
         </p>
       </a>
     </div>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
