@@ -46,14 +46,27 @@
         color: "var(--theme-color,#42b983)",
         height: "3px",
       },
-      footer: {
-        copy: '<div style="width:300px;margin:0 auto; padding:20px 0;">\
-           <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">\
-          <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51012202001091号</p></a></div>',
-        auth: 'Hugh',
-        pre: '<hr/>',
-        style: 'text-align: center;',
-      },
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<div style="width:300px;margin:0 auto; padding:20px 0;">',
+            '<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091"',
+            'style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">',
+            '<img src="" style="float:left;" />',
+            '<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51012202001091号',
+            '</p>',
+            '</a>',
+            '</div>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -64,7 +77,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <!-- <footer>
     <div style="width:300px;margin:0 auto; padding:20px 0;">
       <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001091"
