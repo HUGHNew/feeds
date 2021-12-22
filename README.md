@@ -16,3 +16,5 @@ blog:
 -   [Yolo5demo体验ncnn](blogs/Android-Yolo5.md)
 -   [WireShark配置SSL解密](blogs/WireShark_SSL_Decrypt.md)
 -   [OCR on Gnome](blogs/Gnome-OCR.md)
+
+nav : 学习内容导航
