@@ -1,3 +1,4 @@
 -   [Yolo5demo体验ncnn-version](blogs/Android-Yolo5.md)
 -   [WireShark配置SSL解密](blogs/WireShark_SSL_Decrypt.md)
 -   [OCR on Gnome](blogs/Gnome-OCR.md)
+-   [$\lambda$](blogs/Lambda-Calculus-Detail.md)
