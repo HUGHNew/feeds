@@ -17,6 +17,7 @@ blog:
 -   [WireShark配置SSL解密](blogs/WireShark_SSL_Decrypt.md)
 -   [OCR on Gnome](blogs/Gnome-OCR.md)
 -   [$\lambda$演算](blogs/Lambda-Calculus-Detail.md)疑点理解
+-   [双系统Ubuntu扩容根分区](blogs/Ubuntu-Disk-Resize.md)
 
 nav : 学习内容导航
 
