@@ -4,4 +4,5 @@
     -   [OCR on Gnome](blogs/Gnome-OCR.md)
     -   [$\lambda$演算](blogs/Lambda-Calculus-Detail.md)疑点理解
     -   [双系统Ubuntu扩容根分区](blogs/Ubuntu-Disk-Resize.md)
+    -   [Windows 包管理器预览](blogs/Windows-Pkg-Man.md)
 -   [navigator](nav.md)

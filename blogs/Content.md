@@ -3,3 +3,4 @@
 -   [OCR on Gnome](blogs/Gnome-OCR.md)
 -   [$\lambda$](blogs/Lambda-Calculus-Detail.md)
 -   [双系统Ubuntu扩容根分区](blogs/Ubuntu-Disk-Resize.md)
+-   [Windows 包管理器预览](blogs/Windows-Pkg-Man.md)
