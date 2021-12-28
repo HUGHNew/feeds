@@ -8,6 +8,8 @@
 >
 > (Scoop是一个让你在Windows上方便获取开源CLI工具的安装器)
 
+> scoop 依赖于git/github 在无代理情况下很羸弱
+
 ### 下载/安装
 
 ~~如果没有代理的话，建议参考[这里](https://shenbo.github.io/2021/03/23/apps/%E4%BD%BF%E7%94%A8scoop%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86windows%E8%BD%AF%E4%BB%B6(2)-github%E5%8A%A0%E9%80%9F/)~~
@@ -89,6 +91,28 @@ scoop uninstall scoop
 -g : 全局
 
 -p : 移除配置文件
+
+### 常见问题
+
+unable to access `https://github.com/...`
+
+这是 git 访问 GitHub 导致的问题 可以通过设置 git 代理解决
+
+如在 `$profile` 文件中添加
+
+```powershell
+function start-proxy {
+    git config --global http.proxy socks5://127.0.0.1:Port
+    git config --global https.proxy socks5://127.0.0.1:Port
+    echo "set git proxy"
+}
+function stop-proxy {
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
+    echo "unset git proxy"
+}
+```
+在使用命令前设置好git代理
 
 ### 参考链接
 
