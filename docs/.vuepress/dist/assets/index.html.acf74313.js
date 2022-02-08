@@ -1,0 +1,1 @@
+const t={key:"v-d3f91280",path:"/trans/",title:"\u7FFB\u8BD1\u5C0F\u96C6",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Logic",slug:"logic",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"trans/README.md"};export{t as data};
