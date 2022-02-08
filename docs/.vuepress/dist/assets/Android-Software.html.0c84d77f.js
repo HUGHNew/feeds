@@ -1,1 +1,0 @@
-const t={key:"v-40b1f75d",path:"/blogs/Android-Software.html",title:"Android \u8F6F\u4EF6\u66FF\u6362(\u66F4\u65B0\u4E2D)",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"blogs/Android-Software.md"};export{t as data};
