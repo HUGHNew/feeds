@@ -12,6 +12,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Windows-Pkg-Man.md',
                 '/blogs/Android-Software',
                 '/blogs/OS-Pak-Man',
+                '/blogs/Nvida-smi-Failed',
             ]
         }
     ],
