@@ -26,6 +26,10 @@ export const zh: NavbarConfig = [
                 link: "/blogs/"
             },
             {
+                text: "手册",
+                link: "/handbook/"
+            },
+            {
                 text: "翻译",
                 link: "/trans/"
             },

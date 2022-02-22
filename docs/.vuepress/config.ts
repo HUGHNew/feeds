@@ -20,6 +20,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     notFound: [
       '这里什么都没有',
       '我们怎么到这来了？',
+      '这里是文档的荒漠',
       '这是一个 404 页面',
       '看起来我们进入了错误的链接',
     ],

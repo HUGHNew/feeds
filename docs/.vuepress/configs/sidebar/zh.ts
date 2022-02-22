@@ -16,6 +16,15 @@ export const zh:SidebarConfig = {
             ]
         }
     ],
+    '/handbook/':[
+        {
+            text: "工具手册",
+            children:[
+                '/handbook/awk.md',
+                '/handbook/sed.md'
+            ]
+        }
+    ],
     '/trans/':[
         {
             text: "翻译小集",
