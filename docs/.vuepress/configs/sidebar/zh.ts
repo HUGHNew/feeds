@@ -5,6 +5,8 @@ export const zh:SidebarConfig = {
             text: "博文随记",
             children:[
                 '/blogs/Android-Yolo5.md',
+                '/blogs/Windows7-on-WMWare.md',
+                '/blogs/Friendly-PowerShell.md',
                 '/blogs/WireShark_SSL_Decrypt.md',
                 '/blogs/Gnome-OCR.md',
                 '/blogs/Lambda-Calculus-Detail.md',
@@ -21,7 +23,8 @@ export const zh:SidebarConfig = {
             text: "工具手册",
             children:[
                 '/handbook/awk.md',
-                '/handbook/sed.md'
+                '/handbook/sed.md',
+                '/handbook/Kotlin-Reference.md',
             ]
         }
     ],
