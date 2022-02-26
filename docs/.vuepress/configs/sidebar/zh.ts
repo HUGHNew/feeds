@@ -5,7 +5,7 @@ export const zh:SidebarConfig = {
             text: "博文随记",
             children:[
                 '/blogs/Android-Yolo5.md',
-                '/blogs/Windows7-on-WMWare.md',
+                '/blogs/Windows7-on-VMWare.md',
                 '/blogs/Friendly-PowerShell.md',
                 '/blogs/WireShark_SSL_Decrypt.md',
                 '/blogs/Gnome-OCR.md',
@@ -14,7 +14,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Windows-Pkg-Man.md',
                 '/blogs/Android-Software',
                 '/blogs/OS-Pak-Man',
-                '/blogs/Nvida-smi-Failed',
+                '/blogs/Nvidia-smi-Failed',
             ]
         }
     ],
