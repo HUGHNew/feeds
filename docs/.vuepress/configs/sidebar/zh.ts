@@ -25,6 +25,13 @@ export const zh:SidebarConfig = {
                 '/handbook/awk.md',
                 '/handbook/sed.md',
                 '/handbook/Kotlin-Reference.md',
+                {
+                    text:"Docker Utility",
+                    children:[
+                        '/handbook/docker-run.md',
+                        '/handbook/docker-control.md'
+                    ]
+                },
             ]
         }
     ],
