@@ -9,3 +9,7 @@
 ### Storage
 
 - [Android 11 Scoped Storage](https://androidexplained.github.io/android/android11/scoped-storage/2020/09/29/file-saving-android-11.html)
+
+### Activity
+
+- [registerForActivityResult](https://blog.csdn.net/java_android_man/article/details/120809631)

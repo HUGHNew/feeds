@@ -11,6 +11,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Gnome-OCR.md',
                 '/blogs/Lambda-Calculus-Detail.md',
                 '/blogs/Ubuntu-Disk-Resize.md',
+                '/blogs/ApplicationMenu-Customize.md',
                 '/blogs/Windows-Pkg-Man.md',
                 '/blogs/Android-Software',
                 '/blogs/OS-Pak-Man',
@@ -45,6 +46,12 @@ export const zh:SidebarConfig = {
                         '/trans/logic/intro.md'
                     ]
                 },
+                {
+                    text:"Kotlin Coroutines Doc",
+                    children:[
+                        '/trans/KtCoroutines/Basics'
+                    ]
+                }
             ]
         }
     ],
