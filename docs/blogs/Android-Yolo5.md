@@ -24,7 +24,7 @@ clone [YoloV5 demo project](https://github.com/nihui/ncnn-android-yolov5/)
 - SDK:29.0.2
 - NDK:21.0.6113669(我下的这个 更新的应该也行)
 - Android Platform 24
-- cmake 3.10 (也许需要单独下载 **ninja**) ~~也或者是在AS下载cmake~~
+- cmake 3.10 (需要单独下载 **ninja**) ~~也或者是在AS下载cmake~~
 
 ```cmake
 # 我没有解压 vulkan 到 `cpp/include/` 路径下 而是放在了外部 这个路径根据实际设置
@@ -47,6 +47,12 @@ ndk {
 
 ## 模型转换
 
+> YoloV5 提供的模型为pt格式
+> NCNN 所需要的模型格式为 bin 和 param
+
+所以需要做模型转换
+
+路径如下:
 pt --(官方export.py)->onnx--(onnxsim)->sim-onnx--(ncnn官方提供onnx2ncnn)-->ncnn(.bin/.param)
 
 ncnn官方连接<https://github.com/Tencent/ncnn/wiki/use-ncnn-with-pytorch-or-onnx>
