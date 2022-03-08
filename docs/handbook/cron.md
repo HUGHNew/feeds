@@ -1,5 +1,7 @@
 # crontab
 
+> 定时任务启动时的 workdir 为用户家目录
+
 > [参考](https://www.gairuo.com/p/cron-expression-sheet)
 
 具体格式参照 `crontab -e` 时的系统提示格式 如Ubuntu:`# m h  dom mon dow   command`
