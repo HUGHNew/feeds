@@ -16,6 +16,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Android-Software',
                 '/blogs/OS-Pak-Man',
                 '/blogs/Nvidia-smi-Failed',
+                '/blogs/Flask-uWSGI-nginx',
             ]
         }
     ],
@@ -51,7 +52,8 @@ export const zh:SidebarConfig = {
                 {
                     text:"Kotlin Coroutines Doc",
                     children:[
-                        '/trans/KtCoroutines/Basics'
+                        '/trans/KtCoroutines/Basics',
+                        '/trans/KtCoroutines/Cancellation'
                     ]
                 }
             ]
