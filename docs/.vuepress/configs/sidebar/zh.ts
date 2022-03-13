@@ -4,19 +4,21 @@ export const zh:SidebarConfig = {
         {
             text: "博文随记",
             children:[
+                '/blogs/Android-Cleartext-HTTP.md',
+                '/blogs/Android-Software',
                 '/blogs/Android-Yolo5.md',
-                '/blogs/Windows7-on-VMWare.md',
+                '/blogs/ApplicationMenu-Customize.md',
+                '/blogs/Flask-uWSGI-nginx',
                 '/blogs/Friendly-PowerShell.md',
-                '/blogs/WireShark_SSL_Decrypt.md',
                 '/blogs/Gnome-OCR.md',
                 '/blogs/Lambda-Calculus-Detail.md',
-                '/blogs/Ubuntu-Disk-Resize.md',
-                '/blogs/ApplicationMenu-Customize.md',
-                '/blogs/Windows-Pkg-Man.md',
-                '/blogs/Android-Software',
-                '/blogs/OS-Pak-Man',
                 '/blogs/Nvidia-smi-Failed',
-                '/blogs/Flask-uWSGI-nginx',
+                '/blogs/OS-Pak-Man',
+                '/blogs/PlaintText-Placeholder',
+                '/blogs/Windows-Pkg-Man.md',
+                '/blogs/Windows7-on-VMWare.md',
+                '/blogs/WireShark_SSL_Decrypt.md',
+                '/blogs/Ubuntu-Disk-Resize.md',
             ]
         }
     ],
@@ -24,11 +26,18 @@ export const zh:SidebarConfig = {
         {
             text: "工具手册",
             children:[
-                '/handbook/awk.md',
-                '/handbook/sed.md',
+                {
+                    text:"*nix",
+                    children:[
+                        '/handbook/awk.md',
+                        '/handbook/sed.md',
+                        '/handbook/cron.md',
+                        '/handbook/screen.md',
+                        '/handbook/wget.md',
+                        '/handbook/curl.md',
+                    ]
+                },
                 '/handbook/Kotlin-Reference.md',
-                '/handbook/cron.md',
-                '/handbook/screen.md',
                 {
                     text:"Docker Utility",
                     children:[
