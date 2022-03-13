@@ -13,3 +13,7 @@
 ### Activity
 
 - [registerForActivityResult](https://blog.csdn.net/java_android_man/article/details/120809631)
+
+### UI
+
+- [通知栏透明](https://juejin.cn/post/6878195975966425101)
