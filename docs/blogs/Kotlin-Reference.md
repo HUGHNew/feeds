@@ -17,3 +17,11 @@
 ### UI
 
 - [通知栏透明](https://juejin.cn/post/6878195975966425101)
+
+### Image Process
+
+- [Android Matrix 图像变换处理](https://blog.csdn.net/xx326664162/article/details/60142947)
+
+### Network
+
+- [Android M and the war on cleartext traffic](https://koz.io/android-m-and-the-war-on-cleartext-traffic/)

@@ -1,7 +1,9 @@
 # Android 使用HTTP明文通信
 
 > 对于自己的测试用网站 弄个SSL证书也是比较麻烦 所以使用HTTP明文通信
+> 
 > 但 Android8.1 之后 默认关闭明文通信
+> 
 > Starting with Android 9 (API level 28), cleartext support is disabled by default.
 
 ## 创建 network_security_config 配置

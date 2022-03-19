@@ -11,6 +11,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Flask-uWSGI-nginx',
                 '/blogs/Friendly-PowerShell.md',
                 '/blogs/Gnome-OCR.md',
+                '/handbook/Kotlin-Reference.md',
                 '/blogs/Lambda-Calculus-Detail.md',
                 '/blogs/Nvidia-smi-Failed',
                 '/blogs/OS-Pak-Man',
@@ -37,7 +38,6 @@ export const zh:SidebarConfig = {
                         '/handbook/curl.md',
                     ]
                 },
-                '/handbook/Kotlin-Reference.md',
                 {
                     text:"Docker Utility",
                     children:[
