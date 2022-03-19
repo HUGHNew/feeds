@@ -6,3 +6,8 @@
 
 终端复用程序
 - [screen](screen.md)
+
+网络工具
+- [wget](wget.md)
+- [curl](curl.md)
+

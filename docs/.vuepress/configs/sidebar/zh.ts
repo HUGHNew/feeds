@@ -16,6 +16,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Nvidia-smi-Failed',
                 '/blogs/OS-Pak-Man',
                 '/blogs/PlaintText-Placeholder',
+                '/blogs/Python-Shell-Command',
                 '/blogs/Windows-Pkg-Man.md',
                 '/blogs/Windows7-on-VMWare.md',
                 '/blogs/WireShark_SSL_Decrypt.md',
