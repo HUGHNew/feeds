@@ -95,14 +95,17 @@ HTTP1.1
 
 > HTTPS = HTTPx+ SSL/TLS
 
-${\rm TLS}\,1.0 \;\approx\;{\rm SSL}\,3.0/3.1$
+<!-- ${\rm TLS}\,1.0 \;\approx\;{\rm SSL}\,3.0/3.1$ -->
 
-
+TLS1.0 约等于 SSL3.0/3.1
 
 ## 参考
 
 HTTP x
 - <https://juejin.cn/post/6844903489596833800>
 - <https://juejin.cn/post/6995109407545622542>
+
+HTTPS
+- <https://zhuanlan.zhihu.com/p/43789231>
 
 [1]: https://zh.wikipedia.org/wiki/HTTP/3
