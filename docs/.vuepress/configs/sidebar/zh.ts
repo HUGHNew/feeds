@@ -8,10 +8,10 @@ export const zh:SidebarConfig = {
                 '/blogs/Android-Software',
                 '/blogs/Android-Yolo5.md',
                 '/blogs/ApplicationMenu-Customize.md',
+                '/blogs/Context-References.md',
                 '/blogs/Flask-uWSGI-nginx',
                 '/blogs/Friendly-PowerShell.md',
                 '/blogs/Gnome-OCR.md',
-                '/blogs/Context-References.md',
                 '/blogs/Lambda-Calculus-Detail.md',
                 '/blogs/Nvidia-smi-Failed',
                 '/blogs/OS-Pak-Man',
@@ -46,6 +46,7 @@ export const zh:SidebarConfig = {
                         '/handbook/docker-control.md'
                     ]
                 },
+                '/handbook/HTTP.md',
             ]
         }
     ],
