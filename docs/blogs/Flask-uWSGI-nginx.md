@@ -51,7 +51,9 @@ $ python app.py
 ## uWSGI与nginx
 
 WSGI:Web Server Gateway Interface 是一个Python标准[PEP0333](https://www.python.org/dev/peps/pep-0333/)
+
 uWSGI:一个C编写的应用服务器(全功能HTTP服务器) 可以直接构建网络服务 默认单核单线程
+
 uwsgi:一种协议 uWSGI/nginx/apache httpd 都支持
 
 ## 部署
