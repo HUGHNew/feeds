@@ -56,13 +56,17 @@ Options:
 
 ## 端口映射
 
+::: tip
+可以只暴露 不发布 然后通过内网`docker0`访问
+:::
+
 ### 暴露端口 expose
 
-暴露:容器开发能访问的端口
+暴露:容器开放能访问的端口
 
 ```bash
 docker run -d nginx
-# docker ps 能看见容器80端口已暴露 但是主机无法访问
+# docker ps 能看见容器80端口已暴露 但是主机(`localhost`)无法访问
 ```
 
 `docker ps` 查看容器信息 仅列出

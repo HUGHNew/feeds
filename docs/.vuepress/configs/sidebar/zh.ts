@@ -43,7 +43,8 @@ export const zh:SidebarConfig = {
                     text:"Docker Utility",
                     children:[
                         '/handbook/docker-run.md',
-                        '/handbook/docker-control.md'
+                        '/handbook/docker-control.md',
+                        '/handbook/docker-volume.md',
                     ]
                 },
                 '/handbook/HTTP.md',
