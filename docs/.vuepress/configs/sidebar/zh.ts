@@ -37,6 +37,7 @@ export const zh:SidebarConfig = {
                         '/handbook/screen.md',
                         '/handbook/wget.md',
                         '/handbook/curl.md',
+                        '/handbook/tar.md',
                     ]
                 },
                 {
