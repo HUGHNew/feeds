@@ -1,4 +1,4 @@
-# Wget
+# wget
 
 > HTTP/FTP non-iteractive downloader
 > HTTP/FTP 非交互式下载器

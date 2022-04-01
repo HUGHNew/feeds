@@ -10,6 +10,7 @@ export const zh:SidebarConfig = {
                 '/blogs/ApplicationMenu-Customize.md',
                 '/blogs/Context-References.md',
                 '/blogs/Flask-uWSGI-nginx',
+                '/blogs/Flask-uWSGI-in-Docker',
                 '/blogs/Friendly-PowerShell.md',
                 '/blogs/Gnome-OCR.md',
                 '/blogs/Lambda-Calculus-Detail.md',

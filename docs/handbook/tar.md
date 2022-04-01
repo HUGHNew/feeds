@@ -1,4 +1,4 @@
-# tar 使用
+# tar
 
 > tar: tape archive
 
