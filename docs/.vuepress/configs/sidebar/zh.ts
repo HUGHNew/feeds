@@ -4,24 +4,25 @@ export const zh:SidebarConfig = {
         {
             text: "博文随记",
             children:[
-                '/blogs/Android-Cleartext-HTTP.md',
+                '/blogs/Android-Cleartext-HTTP',
                 '/blogs/Android-Software',
-                '/blogs/Android-Yolo5.md',
-                '/blogs/ApplicationMenu-Customize.md',
-                '/blogs/Context-References.md',
+                '/blogs/Android-Yolo5',
+                '/blogs/ApplicationMenu-Customize',
+                '/blogs/Context-References',
                 '/blogs/Flask-uWSGI-nginx',
                 '/blogs/Flask-uWSGI-in-Docker',
-                '/blogs/Friendly-PowerShell.md',
-                '/blogs/Gnome-OCR.md',
-                '/blogs/Lambda-Calculus-Detail.md',
+                '/blogs/Friendly-PowerShell',
+                '/blogs/Gnome-OCR',
+                '/blogs/Lambda-Calculus-Detail',
                 '/blogs/Nvidia-smi-Failed',
                 '/blogs/OS-Pak-Man',
                 '/blogs/PlaintText-Placeholder',
                 '/blogs/Python-Shell-Command',
-                '/blogs/Windows-Pkg-Man.md',
-                '/blogs/Windows7-on-VMWare.md',
-                '/blogs/WireShark_SSL_Decrypt.md',
-                '/blogs/Ubuntu-Disk-Resize.md',
+                '/blogs/Ubuntu-Disk-Resize',
+                '/blogs/Windows-Pkg-Man',
+                '/blogs/Windows7-on-VMWare',
+                '/blogs/WireShark_SSL_Decrypt',
+                '/blogs/xmake-quick-start',
             ]
         }
     ],
@@ -32,24 +33,24 @@ export const zh:SidebarConfig = {
                 {
                     text:"*nix",
                     children:[
-                        '/handbook/awk.md',
-                        '/handbook/sed.md',
-                        '/handbook/cron.md',
-                        '/handbook/screen.md',
-                        '/handbook/wget.md',
-                        '/handbook/curl.md',
-                        '/handbook/tar.md',
+                        '/handbook/awk',
+                        '/handbook/sed',
+                        '/handbook/cron',
+                        '/handbook/screen',
+                        '/handbook/wget',
+                        '/handbook/curl',
+                        '/handbook/tar',
                     ]
                 },
                 {
                     text:"Docker Utility",
                     children:[
-                        '/handbook/docker-run.md',
-                        '/handbook/docker-control.md',
-                        '/handbook/docker-volume.md',
+                        '/handbook/docker-run',
+                        '/handbook/docker-control',
+                        '/handbook/docker-volume',
                     ]
                 },
-                '/handbook/HTTP.md',
+                '/handbook/HTTP',
             ]
         }
     ],
@@ -60,7 +61,7 @@ export const zh:SidebarConfig = {
                 {
                     text:"逻辑",
                     children:[
-                        '/trans/logic/intro.md'
+                        '/trans/logic/intro'
                     ]
                 },
                 {

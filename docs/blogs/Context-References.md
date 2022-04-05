@@ -1,5 +1,10 @@
 # 优秀参考博客记录
 
+## regex 匹配
+
+- [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
+- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+
 ## 网络
 
 - [知乎: HTTPS 加密原理](https://zhuanlan.zhihu.com/p/43789231)
