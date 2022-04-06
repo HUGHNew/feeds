@@ -6,8 +6,7 @@ Flask/uWSGI nginx的基础使用可以看[这里](Flask-uWSGI-nginx.md)
 
 ## docker 配置
 
-::: tip
-容器拉取
+::: tip 容器拉取
 `sudo docker pull git4docker/flask nginx:alpine`
 
 git4docker/flask的[Dockerfile](https://raw.githubusercontent.com/HUGHNew/Dockerfiles/master/Dockerfile.flask)
@@ -28,7 +27,7 @@ git4docker/flask的[Dockerfile](https://raw.githubusercontent.com/HUGHNew/Docker
 
 @[code](flask-docker/flask/uwsgi.ini)
 
-::: tip
+::: tip uwsgi 配置对比
 对比[正常使用的代码](Flask-uWSGI-nginx.md#配置) 少了`daemonize = uwsgi.log`
 :::
 
@@ -38,7 +37,7 @@ git4docker/flask的[Dockerfile](https://raw.githubusercontent.com/HUGHNew/Docker
 
 主要就是写一个配置文件
 
-::: tip
+::: tip nginx配置
 `alpine` nginx 的 `nginx.conf` 里面默认include `/etc/nginx/conf.d/*.conf`
 :::
 
@@ -60,11 +59,21 @@ git4docker/flask的[Dockerfile](https://raw.githubusercontent.com/HUGHNew/Docker
 
 容器启动时的容器名配置是必须的
 
-::: details
+::: details 一些小提示
 flask 容器的容器名可以修改 不过需要保证 `docker run` 时的name和 `nginx upstream` 中配置的相同
 
 nginx 容器必须前台启动
 :::
+
+## 使用 docker compose
+
+compose 配置文件
+
+@[code](flask-docker/docker-compose.yml)
+
+拉取镜像 `docker compose pull`
+
+启动服务 `docker compose up`(前台启动 可以查看日志) 或者 `docker compose up -d`(daemon后台启动)
 
 ## 参考
 

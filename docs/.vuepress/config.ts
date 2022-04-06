@@ -10,7 +10,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     ['link',{rel:'icon',href:'https://avatars.githubusercontent.com/HUGHNew?s=16'},],
   ],
 
-  // 插件配置
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
