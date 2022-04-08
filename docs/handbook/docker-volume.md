@@ -22,7 +22,7 @@ docker run -d -P \
     nginx:alpine
 ```
 
-::: warning
+::: warning 注意
 同时 -v 还可以直接挂载本地绝对路径
 
 `-v /path/to/local/a:/path/to/container/a`
@@ -32,7 +32,7 @@ docker run -d -P \
 
 ## volume
 
-::: tip
+::: tip 概念
 volume 的概念 就是一块存储空间
 
 `docker volume create` 时 只是创建一个空的可用的存储空间 并不会将任何东西放进去
@@ -46,5 +46,32 @@ docker volume
     rm __names
     prune
 ```
+
+## Dockerfile
+
+```dockerfile
+VOLUME ["/data","/var/log"]
+VOLUME /data /var/log
+```
+
+`VOLUME` 创建挂载点并标记为本地或者来自其他容器 可以配合 `--volume-from`(docker run) 使用
+
+### 示例
+
+在第一个容器 `/data` 路径下 创建一个文件 并在另一个容器中查看
+
+```bash
+$ sudo docker run -v /data -it --name ap alpine /bin/ash
+/ # ls data
+/ # touch data/{1..20}.txt
+/ # ls data
+{1..20}.txt
+/ # %     
+# Ctrl + p + q 退出容器
+$ sudo docker run --rm --volumes-from ap alpine ls /data
+{1..20}.txt
+```
+
+[详细介绍](https://docs.docker.com/storage/volumes/)
 
 [1]: https://yeasy.gitbook.io/docker_practice/data_management/volume

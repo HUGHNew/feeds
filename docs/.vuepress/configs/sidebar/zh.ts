@@ -48,6 +48,7 @@ export const zh:SidebarConfig = {
                         '/handbook/docker-run',
                         '/handbook/docker-control',
                         '/handbook/docker-volume',
+                        '/handbook/docker-entry',
                     ]
                 },
                 '/handbook/HTTP',
@@ -69,6 +70,12 @@ export const zh:SidebarConfig = {
                     children:[
                         '/trans/KtCoroutines/Basics',
                         '/trans/KtCoroutines/Cancellation'
+                    ]
+                },
+                {
+                    text:"regex",
+                    children:[
+                        '/trans/regex/A-Regular-Expression-Matcher'
                     ]
                 }
             ]
