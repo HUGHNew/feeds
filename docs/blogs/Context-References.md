@@ -22,6 +22,7 @@
 ### Activity
 
 - [CSDN: registerForActivityResult](https://blog.csdn.net/java_android_man/article/details/120809631)
+- [complete lifecycle](https://stackoverflow.com/questions/28929637/difference-and-uses-of-oncreate-oncreateview-and-onactivitycreated-in-fra/44582434#44582434)
 
 ### UI
 

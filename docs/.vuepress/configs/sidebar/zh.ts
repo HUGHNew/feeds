@@ -52,6 +52,7 @@ export const zh:SidebarConfig = {
                     ]
                 },
                 '/handbook/HTTP',
+                '/handbook/Review-in-C++',
             ]
         }
     ],

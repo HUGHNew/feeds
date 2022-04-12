@@ -151,3 +151,7 @@ nginx -s reload
 - [Flask with nginx and uWSGI on Ubuntu Bionic](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04)
 - [Flask+uwsgi+nginx项目部署](https://blog.csdn.net/hit0803107/article/details/53264066)
 - [nginx与uWSGI](https://blog.csdn.net/dqchouyang/article/details/81639788)
+
+## 优秀文章
+
+- [Flask 的部署](https://windard.com/project/2016/12/01/Deploy-Flask-APP)
