@@ -122,6 +122,10 @@ void callG(T&& val){ // 涉及知识点 引用折叠
 
 ## 优秀文章/博客
 
+### 模板
+
+- [CRTP](https://fuzhe1989.github.io/2018/04/21/crtp/)
+
 ### 内存管理
 
 - [C++ 内存问题](https://segmentfault.com/a/1190000039348996#item-6)

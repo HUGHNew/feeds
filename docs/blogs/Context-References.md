@@ -1,4 +1,18 @@
-# 优秀参考博客记录
+# 优秀参考博客/文章/资源记录
+
+## 编译器实现 Flex/Bison/LLVM
+
+- [动手写个玩具编译器](https://jeremyxu2010.github.io/2020/10/%E5%8A%A8%E6%89%8B%E5%86%99%E4%B8%AA%E7%8E%A9%E5%85%B7%E7%BC%96%E8%AF%91%E5%99%A8/)
+- Writing Your Own Toy Compiler Using Flex, Bison and LLVM
+  - [原文](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
+  - [中文翻译](https://coolshell.cn/articles/1547.html)
+
+## Flex/Bison
+
+- [Tutorial](https://www.capsl.udel.edu/courses/cpeg421/2012/slides/Tutorial-Flex_Bison.pdf)
+- 动物书
+  - [英文版](https://web.iitd.ac.in/~sumeet/flex__bison.pdf)
+  - [中文版](https://xsky.tech/ebooks/flex%E4%B8%8Ebison%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 
 ## regex 匹配
 
