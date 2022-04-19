@@ -31,28 +31,39 @@ export const zh:SidebarConfig = {
             text: "工具手册",
             children:[
                 {
-                    text:"*nix",
+                    text:"*nix tools",
+                    link:'/handbook/LinuxTools/index.html',
                     children:[
-                        '/handbook/awk',
-                        '/handbook/sed',
-                        '/handbook/cron',
-                        '/handbook/screen',
-                        '/handbook/wget',
-                        '/handbook/curl',
-                        '/handbook/tar',
+                        '/handbook/LinuxTools/awk',
+                        '/handbook/LinuxTools/sed',
+                        '/handbook/LinuxTools/cron',
+                        '/handbook/LinuxTools/screen',
+                        '/handbook/LinuxTools/wget',
+                        '/handbook/LinuxTools/curl',
+                        '/handbook/LinuxTools/tar',
                     ]
                 },
                 {
                     text:"Docker Utility",
                     children:[
-                        '/handbook/docker-run',
-                        '/handbook/docker-control',
-                        '/handbook/docker-volume',
-                        '/handbook/docker-entry',
+                        '/handbook/Docker/run',
+                        '/handbook/Docker/control',
+                        '/handbook/Docker/volume',
+                        '/handbook/Docker/entry',
+                    ]
+                },
+                {
+                    text:"Trip in Golang",
+                    link:'/handbook/GoLang/index.html',
+                    children:[
+                        '/handbook/GoLang/nil',
+                        '/handbook/GoLang/initialization',
+                        '/handbook/GoLang/defer',
                     ]
                 },
                 '/handbook/HTTP',
                 '/handbook/Review-in-C++',
+                '/handbook/flex-bison',
             ]
         }
     ],

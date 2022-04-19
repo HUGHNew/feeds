@@ -1,4 +1,4 @@
-# Docker command
+# docker command
 
 > 本文解释在`Dockerfile`中`CMD`和`ENTRYPOINT`的区别 以及在使用是与命令行参数的交互情况
 
