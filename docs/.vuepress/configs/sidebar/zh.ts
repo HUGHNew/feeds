@@ -59,6 +59,7 @@ export const zh:SidebarConfig = {
                         '/handbook/GoLang/nil',
                         '/handbook/GoLang/initialization',
                         '/handbook/GoLang/defer',
+                        '/handbook/GoLang/len&cap',
                     ]
                 },
                 '/handbook/HTTP',
