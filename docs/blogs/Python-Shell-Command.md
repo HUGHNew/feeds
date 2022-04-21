@@ -4,8 +4,11 @@
 - <https://janakiev.com/blog/python-shell-commands/>
 - [Python 多线程](https://www.cnblogs.com/chengd/articles/7770898.html)
 
-```python
-```
+:::warning `close`!
+下面的展示代码不一定关闭了管道或文件 实际代码中记得 `close`
+
+或者使用 `with` 语句
+:::
 
 ## os
 
@@ -27,6 +30,7 @@ code = os.system("pwd") # 得到执行脚本的路径
 import os
 pipe = os.popen('echo Returned output')
 output = pipe.read() # read from pipe
+# pipe.close()
 ```
 ## subprocess
 
