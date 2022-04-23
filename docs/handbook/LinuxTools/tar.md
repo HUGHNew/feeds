@@ -59,19 +59,25 @@ $ tar xf f.tar -C . # 需要保证指定目录存在
 ## 压缩
 
 压缩工具:
-- zip
+- zip(rar)
 - gzip
 - bzip2
 - xz
 
 解压工具:
-- unzip
+- unzip(unrar)
 - gunzip
 - bunzip2
 - xz
 
+:::danger gnome-rar
+使用gnome自带的图形化解压软件解压rar可能会出大问题 可能是没有对应的解压算法
+
+只能 `apt install unrar` 命令行解压
+:::
+
 ::: tip
-除了 `zip` 其他软件其实都是调用的同一个二进制 只不过使用的不同参数
+除了 `zip/rar` 其他软件其实都是调用的同一个二进制 只不过使用的不同参数
 
 默认压缩对于源文件操作 并添加后缀(压缩软件名) 如`xz 1.txt` `1.txt -> 1.txt.xz` 解压会逆操作
 

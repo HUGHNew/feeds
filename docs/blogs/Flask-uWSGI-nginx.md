@@ -62,6 +62,7 @@ uwsgi:一种协议 uWSGI/nginx/apache httpd 都支持
 
 ```bash
 pip install flask uwsgi
+# uwsgi 需要gcc编译
 sudo apt install nginx
 # sudo yum install nginx
 ```

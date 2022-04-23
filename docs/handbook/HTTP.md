@@ -99,6 +99,22 @@ HTTP1.1
 
 TLS1.0 约等于 SSL3.0/3.1
 
+:::tip 安全问题
+信息劫持 与 中间人攻击
+
+实际问题: 需要确定浏览器收到的公钥一定是对应网站的公钥
+:::
+
+HTTPS 引入权威机构(CA, Certificate Authority)来奠定安全的基础
+
+网站启动HTTPS之前 申领CA的数字证书
+
+:::details CA防篡改
+证书+数字签名
+
+![数字签名的生成与验证](https://cheapsslsecurity.com/blog/wp-content/uploads/2018/09/how-do-digital-signatures-and-digital-certificates-work-together-in-ssl.png)
+:::
+
 ## 参考
 
 HTTP x
@@ -107,5 +123,7 @@ HTTP x
 
 HTTPS
 - <https://zhuanlan.zhihu.com/p/43789231>
+- [How do certification authorities store their private root keys?](https://security.stackexchange.com/questions/24896/how-do-certification-authorities-store-their-private-root-keys)
+- [CA机构如何保存私钥](https://www.zhihu.com/question/22260090/answer/648910720)
 
 [1]: https://zh.wikipedia.org/wiki/HTTP/3
