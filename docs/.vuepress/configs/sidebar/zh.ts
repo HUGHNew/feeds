@@ -62,6 +62,14 @@ export const zh:SidebarConfig = {
                         '/handbook/GoLang/len&cap',
                     ]
                 },
+                {
+                    text:"安全",
+                    link:'/handbook/Security/index.html',
+                    children:[
+                        '/handbook/Security/hash',
+                        '/handbook/Security/encrypt',
+                    ]
+                },
                 '/handbook/HTTP',
                 '/handbook/Review-in-C++',
                 '/handbook/flex-bison',

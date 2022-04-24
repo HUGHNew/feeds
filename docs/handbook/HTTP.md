@@ -107,13 +107,34 @@ TLS1.0 约等于 SSL3.0/3.1
 
 HTTPS 引入权威机构(CA, Certificate Authority)来奠定安全的基础
 
-网站启动HTTPS之前 申领CA的数字证书
+网站启用HTTPS之前 申领CA的数字证书
 
 :::details CA防篡改
-证书+数字签名
+证书(包含网址等基本信息)+数字签名(使用CA的公钥加密)
 
 ![数字签名的生成与验证](https://cheapsslsecurity.com/blog/wp-content/uploads/2018/09/how-do-digital-signatures-and-digital-certificates-work-together-in-ssl.png)
+
+> hash作用:
+> 1. 非对称加密的位数限制
+> 2. [其他安全原因](https://crypto.stackexchange.com/questions/12768/why-hash-the-message-before-signing-it-with-rsa/12780#12780)
 :::
+
+公钥的可信
+1. 根证书物理方式传递给OS/Brower厂商 然后预装
+2. 证书信任链
+3. 手动安装
+
+加密内容
+1. HTTP请求和响应的具体内容
+
+外部可见内容
+1. HTTP请求
+2. TCP头部 Port
+3. IP头部 IP
+
+图示SSL流程
+
+![](https://img-blog.csdnimg.cn/20200609101405612.gif)
 
 ## 参考
 
