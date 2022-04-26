@@ -32,7 +32,8 @@ fun main() = runBlocking {
 > 所有在`kotlinx.coroutine`的`suspend`函数都是可取消的 会检查协程取消状态 取消时会抛出`CancellationException`
 > 上例中的 `delay` 函数是 `suspend` 函数
 
-一个不检查取消状态的协程是不会被取消的
+**一个不检查取消状态的协程是不会被取消的**
+
 ```kotlin
 import kotlinx.coroutines.*
 
@@ -113,6 +114,8 @@ fun main() = runBlocking {
 }
 ```
 
+> `join` 和 `cancelAndJoin` 都会等待 `finally` 块的执行
+
 ### 不能取消的代码块
 
 > 因为执行代码的协程被取消 所以在 `finally` 块中执行 `suspend` 函数会导致 `CancellationException` 异常的抛出
@@ -158,6 +161,8 @@ withTimeout(1300L) {
 取消(cancellation)只是一种异常 所以可以用 `try-catch-finally` 包起来处理
 也可以使用 `withTimeoutOrNull` 处理需要返回值的情况
 
+该函数在超时时返回null而不抛出异常
+
 ```kotlin
 val result = withTimeoutOrNull(1300L) {
     repeat(1000) { i ->
@@ -173,4 +178,55 @@ println("Result is $result")
 
 > `withTimeout` 中的超时事件相对于在其块中运行的代码是异步的，并且可能随时发生，甚至在从超时块内部返回之前
 
-所以在协程中使用资源时 在注意在finally块中 释放资源
+所以在协程中使用资源时 **在注意在finally块中释放资源**
+
+```kotlin
+var acquired = 0
+
+class Resource {
+    init { acquired++ } // Acquire the resource
+    fun close() { acquired-- } // Release the resource
+}
+
+fun main() {
+    runBlocking {
+        repeat(100_000) { // Launch 100K coroutines
+            launch { 
+                val resource = withTimeout(60) { // Timeout of 60 ms
+                    delay(50) // Delay for 50 ms
+                    Resource() // Acquire a resource and return it from withTimeout block     
+                }
+                resource.close() // Release the resource
+            }
+        }
+    }
+    // Outside of runBlocking all coroutines have completed
+    println(acquired) // Print the number of resources still acquired
+}
+```
+
+例如执行上述一段代码 最后不一定输出0~~跟循环多加一两个数量级结果更明显~~
+
+:::tip
+因为都发生在同一个主线程 所以100K个协程对于`acquired`的加减是完全安全的
+
+更多的内容会在下一章的 `coroutine context` 中讲解
+:::
+
+解决上述问题只需要把上述`launch`中的代码修改为这样
+```kotlin
+launch { 
+    var resource: Resource? = null // Not acquired yet
+    try {
+        withTimeout(60) { // Timeout of 60 ms
+            delay(50) // Delay for 50 ms
+            resource = Resource() // Store a resource to the variable if acquired      
+        }
+        // We can do something else with the resource here
+    } finally {  
+        resource?.close() // Release the resource if it was acquired
+    }
+}
+```
+
+这样就能保证输出0了

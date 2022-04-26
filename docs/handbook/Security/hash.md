@@ -1,12 +1,12 @@
-# Hash 与 信息摘要
+# Hash
 
-## MD5
+## [MD5](https://datatracker.ietf.org/doc/html/rfc1321)
 
 [讲解](https://www.bilibili.com/video/BV1S541127qR)
 
 > Message Digest
 
-原始数据 ->512bit补齐(最后64位存储原始数据长度~~小端存储~~)-> 128bit
+原始数据 ->512bit补齐(第一位补1 后续补0 最后64位存储原始数据长度(mode $2^64$)~~小端存储~~)-> 128bit
 
 特点
 1. 压缩性:任意长度的数据 算出的MD5值长度都是固定的
@@ -46,3 +46,17 @@
 ### 抗碰撞性
 
 有方法找到值相同的两个原像
+
+## [SHA](https://zh.wikipedia.org/wiki/SHA%E5%AE%B6%E6%97%8F)
+
+> Secure Hash Algorithm
+
+- SHA-0:160(5x32)bit
+- SHA-1:160(5x32)bit
+> 原始数据 ->512bit补齐最后64位存储原始数据长度
+- SHA-2(算法:输出长度(中继hash值长度)/block size)
+  - SHA-224:224/512
+  - SHA-256:256(8x32)bit/512
+  - SHA-384:384/1024
+  - SHA-512:512(8x64)bit/1024
+- SHA-3
