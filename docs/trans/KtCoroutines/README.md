@@ -12,4 +12,9 @@ Kotlin 的keyword没有 async 和 await
 目录
 - [x] [基础](Basics.md)
 - [x] [取消与超时](Cancellation.md)
-- [ ] [suspend函数的组合](Compose.md)
+- [x] [suspend函数的组合](Compose.md)
+- [ ] [上下文和分派器](Dispatcher.md)
+- [ ] [异步流](Flow.md)
+- [ ] [channels](Channel.md)
+- [ ] [协程异常处理](Exceptions.md)
+- [ ] [共享的可变状态和并发](Concurrency.md)
