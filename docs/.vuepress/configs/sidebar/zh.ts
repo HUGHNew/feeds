@@ -88,9 +88,11 @@ export const zh:SidebarConfig = {
                 },
                 {
                     text:"Kotlin Coroutines Doc",
+                    link:"/trans/KtCoroutines/index.html",
                     children:[
                         '/trans/KtCoroutines/Basics',
-                        '/trans/KtCoroutines/Cancellation'
+                        '/trans/KtCoroutines/Cancellation',
+                        '/trans/KtCoroutines/Compose',
                     ]
                 },
                 {

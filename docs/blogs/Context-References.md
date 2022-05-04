@@ -31,7 +31,7 @@
 ## 网络
 
 - [知乎: HTTPS 加密原理](https://zhuanlan.zhihu.com/p/43789231)
-
+- [DNS查询](https://juejin.cn/post/6844903900982558734#heading-12)
 ## JNI
 
 - <https://medium.com/yalantis-android/android-ndk-calling-kotlin-from-native-code-40a1cb0f6164>
