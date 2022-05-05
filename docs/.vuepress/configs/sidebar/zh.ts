@@ -93,6 +93,7 @@ export const zh:SidebarConfig = {
                         '/trans/KtCoroutines/Basics',
                         '/trans/KtCoroutines/Cancellation',
                         '/trans/KtCoroutines/Compose',
+                        '/trans/KtCoroutines/Dispatcher',
                     ]
                 },
                 {

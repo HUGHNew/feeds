@@ -1,6 +1,7 @@
 # Kotlin 协程文档翻译
 
 > 官网文档:<https://kotlinlang.org/docs/coroutines-guide.html>
+> 中文站:<https://www.kotlincn.net/docs/reference/coroutines/coroutines-guide.html>
 
 Kotlin 的keyword没有 async 和 await
 
@@ -13,7 +14,7 @@ Kotlin 的keyword没有 async 和 await
 - [x] [基础](Basics.md)
 - [x] [取消与超时](Cancellation.md)
 - [x] [suspend函数的组合](Compose.md)
-- [ ] [上下文和分派器](Dispatcher.md)
+- [x] [上下文和分派器](Dispatcher.md)
 - [ ] [异步流](Flow.md)
 - [ ] [channels](Channel.md)
 - [ ] [协程异常处理](Exceptions.md)
