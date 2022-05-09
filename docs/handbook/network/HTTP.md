@@ -132,6 +132,22 @@ HTTPS 引入权威机构(CA, Certificate Authority)来奠定安全的基础
 2. TCP头部 Port
 3. IP头部 IP
 
+HTTPS 流程
+```mermaid
+sequenceDiagram
+participant c as browser
+participant s as server
+c ->>+ s : Hello
+s ->>- c : Hello(CA证书 Server公钥)
+Note over c : 1. 校验 证书 信息
+Note over c : 2. 对比内置 CA 判断是否可信(无则报错)
+Note over c : 3. 使用内置 CA 公钥解密
+Note over c : 4. 计算hash 对比签名
+c ->> s : 利用Server公钥加密 协商对称加密算法
+Note over c,s : 使用对称加密通讯
+```
+![](https://pic2.zhimg.com/v2-a0d10af45e785fe8d3f5cd12f8c309f5_r.jpg)
+
 图示SSL流程
 
 ![](https://img-blog.csdnimg.cn/20200609101405612.gif)

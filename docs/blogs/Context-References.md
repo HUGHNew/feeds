@@ -36,6 +36,10 @@
 
 - <https://medium.com/yalantis-android/android-ndk-calling-kotlin-from-native-code-40a1cb0f6164>
 
+## cpp
+
+[Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
+
 ## Android
 
 ### Storage

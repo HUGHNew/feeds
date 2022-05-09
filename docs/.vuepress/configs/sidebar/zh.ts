@@ -63,6 +63,13 @@ export const zh:SidebarConfig = {
                     ]
                 },
                 {
+                    text:"Quick-Know Network",
+                    children:[
+                        '/handbook/HTTP',
+                        '/handbook/DNS',
+                    ]
+                },
+                {
                     text:"安全",
                     link:'/handbook/Security/index.html',
                     children:[
@@ -70,9 +77,9 @@ export const zh:SidebarConfig = {
                         '/handbook/Security/encrypt',
                     ]
                 },
-                '/handbook/HTTP',
                 '/handbook/Review-in-C++',
                 '/handbook/flex-bison',
+                '/handbook/Thread',
             ]
         }
     ],
