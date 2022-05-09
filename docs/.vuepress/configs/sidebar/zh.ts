@@ -65,8 +65,8 @@ export const zh:SidebarConfig = {
                 {
                     text:"Quick-Know Network",
                     children:[
-                        '/handbook/HTTP',
-                        '/handbook/DNS',
+                        '/handbook/network/HTTP',
+                        '/handbook/network/DNS',
                     ]
                 },
                 {
