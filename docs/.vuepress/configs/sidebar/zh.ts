@@ -79,7 +79,7 @@ export const zh:SidebarConfig = {
                 },
                 '/handbook/Review-in-C++',
                 '/handbook/flex-bison',
-                '/handbook/Thread',
+                '/handbook/Threads',
             ]
         }
     ],
