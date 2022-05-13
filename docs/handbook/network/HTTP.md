@@ -148,7 +148,7 @@ Note over c,s : 使用对称加密通讯
 ```
 ![](https://pic2.zhimg.com/v2-a0d10af45e785fe8d3f5cd12f8c309f5_r.jpg)
 
-图示SSL流程
+图示SSL流程 [具体细节](TLS.md)
 
 ![](https://img-blog.csdnimg.cn/20200609101405612.gif)
 
