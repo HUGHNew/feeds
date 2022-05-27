@@ -14,3 +14,7 @@
     -   [($\lambda$ xy.learn x in y minx) $\lambda$](https://learnxinyminutes.com/docs/zh-cn/lambda-calculus-cn/)
     -   [Wiki](https://zh.wikipedia.org/wiki/%CE%9B%E6%BC%94%E7%AE%97)
     -   [GM/BM Lambda 中翻](http://cgnail.github.io/academic/lambda-index/)
+-   \*nix
+    -   [Linux 工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html)
+    -   [TL;DR](https://tldr.sh/)
+-   [设计模式](https://refactoringguru.cn/design-patterns/catalog)

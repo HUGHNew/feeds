@@ -60,3 +60,15 @@
   - SHA-384:384/1024
   - SHA-512:512(8x64)bit/1024
 - SHA-3
+
+## Hash 算法与签名算法
+
+Hash算法(指纹算法)计算出Hash值 是一个不可逆的过程 **是签名算法的一个组件**
+
+签名算法对hash值进行非对称加密 从而保证可靠性 防止非法篡改
+> 签名可以与数据一起存储 也可以分开存储
+
+## 参考
+
+- [MD5 B站视频讲解](https://www.bilibili.com/video/BV1S541127qR)
+- [签名与Hash](https://blog.csdn.net/luo_boke/article/details/107128529)
