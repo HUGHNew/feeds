@@ -1,6 +1,8 @@
 # 翻译小集
 
 - [ ] [逻辑](#Logic)
+- [ ] [Kotlin Coroutine](KtCoroutines/README.md)
+- [x] [Flex-cpp](flex-cpp.md) [原文](https://www.cs.virginia.edu/~cr4bd/flex-manual/)
 
 
 ## Logic
