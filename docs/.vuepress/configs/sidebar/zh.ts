@@ -10,6 +10,7 @@ export const zh:SidebarConfig = {
                 '/blogs/ApplicationMenu-Customize',
                 '/blogs/Context-References',
                 '/blogs/Flask-uWSGI-nginx',
+                '/blogs/Flex-Bison-QuickStart',
                 '/blogs/Flask-uWSGI-in-Docker',
                 '/blogs/Friendly-PowerShell',
                 '/blogs/Gnome-OCR',
@@ -79,7 +80,6 @@ export const zh:SidebarConfig = {
                     ]
                 },
                 '/handbook/Review-in-C++',
-                '/handbook/flex-bison',
                 '/handbook/Threads',
             ]
         }

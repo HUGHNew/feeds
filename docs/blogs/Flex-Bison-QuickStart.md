@@ -1,6 +1,8 @@
-# Flex/Bison 大 学 习
+# Flex/Bison 小 学 习
 
-::: tip [lex/flex yacc/bison][1]
+::: tip lex/flex yacc/bison
+[lex/flex yacc/bison][1]
+
 lex 和 flex(the fast lexical analyser generator) 可以认为没什么区别 如果等你用到了有区别的地方时 你就知道有什么区别了
 
 Bison 是 GNU 的 Yacc 实现/拓展 Flex 是 Lex 的继承者
@@ -21,27 +23,7 @@ Written by Robert Corbett and Richard Stallman.
 文件后缀为 `l` VSCode的插件:**Yash**
 
 文件结构
-```lex
-%{
-  // 定义段
-  #include<iostream>
-  #include<cstdio>
-%}
-// 可以定义变量
-ALPHA [a-zA-Z]
-
-// 用两个 % 分割段 下一个段为规则段 指定规则和行为
-%%
-{ALPHA} std::cout<<"匹配到字母"<<std::endl;
-[0-9]+ std::cout<<"匹配到数字串"<<std::endl;
-%%
-int main(int argc, char **argv)
-{
-  printf("Lexer Begin\n");
-  yylex();
-  printf("Lexer End\n");
-}
-```
+@[code c](flex.bison.intro/demo.l)
 
 ::: danger 规则的匹配
 规则的格式
@@ -53,19 +35,40 @@ Lex/Flex 匹配规则
 2. 多个匹配项选择最早的模式(更早定义的)
 :::
 
+flex 编译
+```bash
+flex demo.l # 默认生成文件名为 lex.yy.c
+flex -t demo.l > demo.lex.c # 生成文件名为 demo.lex.c
+```
 
 ## Bison
 
+flex可以单独使用 但bison不行 bison通过`yylex()`获取输入
 
-## Flex/Bison in C++
+bison的三个部分和flex相同
 
-[Flex][2]: `lex -+ -o hello  hello.l`
+下面是简单的四则运算代码
+@[code c](flex.bison.intro/cal.y)
+> bison 需要定义`yyerror`函数
 
-[Bison][3]:
-```bison
-%require "3.2"
-%language "c++"
+bison 编译
+```bash
+bison -d cal.y
+# 默认生成 cal.tab.h cal.tab.c
+# cal.tab.h 里面定义了终结符（enum）
 ```
+
+
+## cal
+
+下面展示一个flex和bison联合使用的例子
+
+bison代码同上
+@[code c](flex.bison.intro/cal.l)
+> 通过`yylval`来设置终结符的值 值类型和名在bison的`%union`联合体中定义
+
+Makefile编译
+@[code bash](flex.bison.intro/Makefile)
 
 ## 参考与学习
 - [The Lex & Yacc Page](http://dinosaur.compilertools.net/)
