@@ -1,5 +1,23 @@
 # 优秀参考博客/文章/资源记录
 
+- [优秀参考博客/文章/资源记录](#优秀参考博客文章资源记录)
+  - [golang](#golang)
+    - [Go1.18 Generics](#go118-generics)
+  - [GOPATH | go mod](#gopath--go-mod)
+  - [编译器实现 Flex/Bison/LLVM](#编译器实现-flexbisonllvm)
+  - [Flex/Bison](#flexbison)
+  - [regex 匹配](#regex-匹配)
+  - [网络](#网络)
+  - [JNI](#jni)
+  - [cpp](#cpp)
+  - [Android](#android)
+    - [Architecture](#architecture)
+    - [Storage](#storage)
+    - [Activity](#activity)
+    - [UI](#ui)
+    - [Image Process](#image-process)
+    - [Network](#network)
+
 ## golang
 
 ### [Go1.18 Generics](https://segmentfault.com/a/1190000041634906)
@@ -41,6 +59,13 @@
 [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 
 ## Android
+
+### Architecture
+
+- [MVP]
+- MVVM
+  - [Jetpack MVVM 精讲](https://juejin.cn/post/6844903976240939021)
+  - [配套代码](https://github.com/KunMinX/Jetpack-MVVM-Best-Practice)
 
 ### Storage
 

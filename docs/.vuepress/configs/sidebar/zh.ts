@@ -4,6 +4,7 @@ export const zh:SidebarConfig = {
         {
             text: "博文随记",
             children:[
+                '/blogs/Android-App-Build',
                 '/blogs/Android-Cleartext-HTTP',
                 '/blogs/Android-Software',
                 '/blogs/Android-Yolo5',
@@ -15,6 +16,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Friendly-PowerShell',
                 '/blogs/Gnome-OCR',
                 '/blogs/Lambda-Calculus-Detail',
+                '/blogs/Linux-Search',
                 '/blogs/Nvidia-smi-Failed',
                 '/blogs/OS-Pak-Man',
                 '/blogs/PlaintText-Placeholder',
