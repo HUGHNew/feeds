@@ -15,6 +15,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Flask-uWSGI-in-Docker',
                 '/blogs/Friendly-PowerShell',
                 '/blogs/Gnome-OCR',
+                '/blogs/Gradle.AGP',
                 '/blogs/Lambda-Calculus-Detail',
                 '/blogs/Linux-Search',
                 '/blogs/Nvidia-smi-Failed',
