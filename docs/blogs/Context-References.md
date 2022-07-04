@@ -11,6 +11,7 @@
   - [JNI](#jni)
   - [cpp](#cpp)
   - [Android](#android)
+    - [Build](#build)
     - [Architecture](#architecture)
     - [Storage](#storage)
     - [Activity](#activity)
@@ -59,6 +60,11 @@
 [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 
 ## Android
+
+### Build
+
+- [Gradle原理](https://www.bilibili.com/video/BV1b4411G7cX)
+- [Gradle入门](https://www.bilibili.com/video/BV1DE411Z7nt)
 
 ### Architecture
 

@@ -123,7 +123,7 @@ TLS 握手协议的子协议
 3. 警告协议: 负责在发生错误时将错误传达给对方
 4. 应用数据协议: 将TLS 上面承载的应用数据传达给通信对象的协议
 
-### [TLS1.2](https://tls12.ulfheim.net/)
+### [TLS1.2][4]
 
 > 跟前面SSL一样 需要2-RTT
 
@@ -144,7 +144,7 @@ TLS 握手协议的子协议
 
 ![](https://img-blog.csdnimg.cn/20200520164217865.png)
 
-### [TLS1.3](https://tls13.ulfheim.net/)
+### [TLS1.3][5]
 
 1. 废弃了RSA密钥交换方案 仅支持(EC)DHE密钥协商方案
 2. 取消了密码规格变更协议
@@ -164,3 +164,5 @@ TLS 握手协议的子协议
 [1]: https://www.vircom.com/blog/how-to-use-ssltls-to-secure-your-communications-the-basics/
 [2]: https://datatracker.ietf.org/doc/html/rfc2246
 [3]: https://wanchuan.top/7736356289614c6ead0aca9380012501
+[4]: https://tls12.ulfheim.net/
+[5]: https://tls13.ulfheim.net/

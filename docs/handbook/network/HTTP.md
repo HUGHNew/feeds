@@ -78,14 +78,25 @@ HTTP1.1
 
 ### QUIC
 
-1. 可插拔: 应用程序层面就能实现不同的拥塞控制算法。
-2. 单调递增的 Packet Number:  使用 Packet Number 代替了 TCP 的 seq。
-3. 不允许 Reneging: 一个 Packet 只要被 Ack，就认为它一定被正确接收。
-4. 前向纠错（FEC）
+> QUIC 协议(UDP based)是 **HTTP/3** 协议的底层协议 使用[**TLS1.3**](TLS.md#tls1-3)的密钥交换方案
+
+> 应用层协议 **默认使用加密**
+
+![QUIC-handshake](/images/Tcp-vs-quic-handshake.svg)
+> 图片来自 [Wiki](https://en.wikipedia.org/wiki/QUIC)
+
+特点:
+1. 可插拔: 应用程序层面就能实现不同的拥塞控制算法。\*
+2. 前向纠错(FEC) \*
+3. 单调递增的 Packet Number:  使用 Packet Number 代替了 TCP 的 seq。
+4. 不允许 Reneging: 一个 Packet 只要被 Ack，就认为它一定被正确接收。
 5. 更多的 Ack 块和增加 Ack Delay 时间。
 6. 基于 stream 和 connection 级别的流量控制。
 
-> UDP based
+[主要优化点][2]
+1. 连接创建开销小: TCP+TLS1.2=3RTT QUIC=1RTT
+2. 单数据包加密(TCP 字节流加密 可能等待其他数据包)
+3. 提高网络切换期间性能(连接标识符:表示客户端与服务器的连接)
 
 > Mozilla 文档没有 暂不更新
 
@@ -117,6 +128,7 @@ HTTPS 引入权威机构(CA, Certificate Authority)来奠定安全的基础
 > hash作用:
 > 1. 非对称加密的位数限制
 > 2. [其他安全原因](https://crypto.stackexchange.com/questions/12768/why-hash-the-message-before-signing-it-with-rsa/12780#12780)
+
 :::
 
 公钥的可信
@@ -164,3 +176,4 @@ HTTPS
 - [CA机构如何保存私钥](https://www.zhihu.com/question/22260090/answer/648910720)
 
 [1]: https://zh.wikipedia.org/wiki/HTTP/3
+[2]: https://zh.wikipedia.org/wiki/QUIC
