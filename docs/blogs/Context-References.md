@@ -4,8 +4,10 @@
   - [golang](#golang)
     - [Go1.18 Generics](#go118-generics)
   - [GOPATH | go mod](#gopath--go-mod)
-  - [编译器实现 Flex/Bison/LLVM](#编译器实现-flexbisonllvm)
-  - [Flex/Bison](#flexbison)
+  - [工具](#工具)
+    - [git](#git)
+    - [编译器实现 Flex/Bison/LLVM](#编译器实现-flexbisonllvm)
+    - [Flex/Bison](#flexbison)
   - [regex 匹配](#regex-匹配)
   - [网络](#网络)
   - [JNI](#jni)
@@ -28,14 +30,21 @@
 - [go mod使用](https://studygolang.com/articles/28712)
 - [浅谈GoPath和Go Modules包管理](https://www.ssgeek.com/post/qian-tan-gopath-he-go-modules-bao-guan-li/)
 
-## 编译器实现 Flex/Bison/LLVM
+## 工具
+
+### git
+
+- [git 使用简易手册](https://www.bootcss.com/p/git-guide/)
+- [git 沙盒](https://oschina.gitee.io/learn-git-branching/)
+
+### 编译器实现 Flex/Bison/LLVM
 
 - [动手写个玩具编译器](https://jeremyxu2010.github.io/2020/10/%E5%8A%A8%E6%89%8B%E5%86%99%E4%B8%AA%E7%8E%A9%E5%85%B7%E7%BC%96%E8%AF%91%E5%99%A8/)
 - Writing Your Own Toy Compiler Using Flex, Bison and LLVM
   - [原文](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
   - [中文翻译](https://coolshell.cn/articles/1547.html)
 
-## Flex/Bison
+### Flex/Bison
 
 - [Tutorial](https://www.capsl.udel.edu/courses/cpeg421/2012/slides/Tutorial-Flex_Bison.pdf)
 - 动物书

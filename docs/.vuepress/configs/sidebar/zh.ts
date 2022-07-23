@@ -22,6 +22,7 @@ export const zh:SidebarConfig = {
                 '/blogs/OS-Pak-Man',
                 '/blogs/PlaintText-Placeholder',
                 '/blogs/Python-Shell-Command',
+                '/blogs/Rime-Ziranma',
                 '/blogs/Ubuntu-Disk-Resize',
                 '/blogs/Windows-Pkg-Man',
                 '/blogs/Windows7-on-VMWare',
