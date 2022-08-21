@@ -10,6 +10,7 @@ export const zh:SidebarConfig = {
                 '/blogs/Android-Yolo5',
                 '/blogs/ApplicationMenu-Customize',
                 '/blogs/Context-References',
+                '/blogs/Desktop-Entry-in-Gnome',
                 '/blogs/Flask-uWSGI-nginx',
                 '/blogs/Flex-Bison-QuickStart',
                 '/blogs/Flask-uWSGI-in-Docker',
