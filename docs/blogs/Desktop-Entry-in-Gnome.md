@@ -31,7 +31,7 @@ application/xhtml+xml=google-chrome.desktop;
 
 但是这不是应用相关的任何id 而是可以自己创建和修改的桌面入口 可以在`/usr/share/applications/` 中找到
 
-::: detail 简略版的 google-chrome.desktop
+::: details 简略版的 google-chrome.desktop
 
 ```desktop
 [Desktop Entry]
@@ -92,7 +92,7 @@ Type=Application
 | Categories | 入口分类 |
 
 
-::: detail 这里以 [Koodo Reader](https://github.com/troyeguo/koodo-reader) appimage 版本举例
+::: details 这里以 [Koodo Reader](https://github.com/troyeguo/koodo-reader) appimage 版本举例
 ```
 [Desktop Entry]
 Name=Koodo-reader
