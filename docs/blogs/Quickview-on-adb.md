@@ -23,7 +23,7 @@ adb 命令会从命令行调用客户端
       3. Debian/Ubuntu - apt
       4. ...
 
-::: Tip adb client/server 版本不匹配
+::: tip adb client/server 版本不匹配
 都可以控制客户端版本去解决问题 使用第一种方法也许能更好避免该问题的发生
 :::
 
