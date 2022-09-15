@@ -5,6 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   lang: 'zh-CN',
   title: 'Hugh\'s Notes',
+  base: '/feeds/',
   description: '个人笔记/博客站点 by Vuepress',
   head:[
     ['link',{rel:'icon',href:'https://avatars.githubusercontent.com/HUGHNew?s=16'},],
