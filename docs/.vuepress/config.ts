@@ -15,9 +15,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: 'https://avatars.githubusercontent.com/HUGHNew?s=32',
-    repo: 'HUGHNew/Site',
+    repo: 'HUGHNew/feeds',
     editLinkText: "有问题/疑惑？",
-    editLinkPattern:"https://github.com/HUGHNew/Site/issues/new/choose",
+    editLinkPattern:"https://github.com/HUGHNew/feeds/issues/new/choose",
     sidebar: sidebar.zh,
     navbar: navbar.zh,
     // 404 page
