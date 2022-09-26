@@ -17,7 +17,7 @@ SSL/TLS 协议两层
 
 :::
 
-[![arch](https://images0.cnblogs.com/kb/1/201401/05125746-760ce000eb624a4f9a7d0d1d0b71ec0a.png)][1]
+[![arch](https://www.vircom.com/security/wp-content/uploads/2012/09/tcp-ip_model_ssl-tls_protocol.png)][1]
 
 TLS 是 SSL3.0的后续版本
 
