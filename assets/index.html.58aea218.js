@@ -1,0 +1,1 @@
+const t={key:"v-ac69df2c",path:"/handbook/LinuxTools/",title:"\u5DE5\u5177\u901F\u89C8\u624B\u518C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650353305e3,contributors:[{name:"Hugh",email:"hugh.lpd@gmail.com",commits:1}]},filePathRelative:"handbook/LinuxTools/README.md"};export{t as data};

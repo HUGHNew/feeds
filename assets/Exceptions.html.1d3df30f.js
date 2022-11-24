@@ -1,0 +1,1 @@
+const t={key:"v-1e3252ea",path:"/trans/KtCoroutines/Exceptions.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650972684e3,contributors:[{name:"Hugh",email:"hugh.lpd@gmail.com",commits:1}]},filePathRelative:"trans/KtCoroutines/Exceptions.md"};export{t as data};

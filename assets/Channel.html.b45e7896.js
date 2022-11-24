@@ -1,0 +1,1 @@
+const t={key:"v-31983441",path:"/trans/KtCoroutines/Channel.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650972684e3,contributors:[{name:"Hugh",email:"hugh.lpd@gmail.com",commits:1}]},filePathRelative:"trans/KtCoroutines/Channel.md"};export{t as data};

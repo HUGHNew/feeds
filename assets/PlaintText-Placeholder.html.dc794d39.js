@@ -1,0 +1,1 @@
+const t={key:"v-61573a45",path:"/blogs/PlaintText-Placeholder.html",title:"\u7EAF\u6587\u672C\u5360\u4F4D\u7B26\u66FF\u6362",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645965686e3,contributors:[{name:"Hugh",email:"1728902978@qq.com",commits:1}]},filePathRelative:"blogs/PlaintText-Placeholder.md"};export{t as data};

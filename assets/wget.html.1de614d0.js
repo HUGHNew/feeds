@@ -1,0 +1,1 @@
+const t={key:"v-46f93790",path:"/handbook/LinuxTools/wget.html",title:"wget",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1650353305e3,contributors:[{name:"Hugh",email:"hugh.lpd@gmail.com",commits:1}]},filePathRelative:"handbook/LinuxTools/wget.md"};export{t as data};

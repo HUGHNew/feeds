@@ -1,0 +1,1 @@
+const e={key:"v-33ad682a",path:"/handbook/Docker/tutorial.html",title:"Dockerfile tutorial",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"docker-compose.yml",slug:"docker-compose-yml",children:[]}],git:{updatedTime:1650353305e3,contributors:[{name:"Hugh",email:"hugh.lpd@gmail.com",commits:1}]},filePathRelative:"handbook/Docker/tutorial.md"};export{e as data};

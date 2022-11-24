@@ -1,0 +1,1 @@
+const t={key:"v-7fa19e3a",path:"/blogs/Nvidia-smi-Failed.html",title:"Ubuntu \u663E\u793A\u5668\u65E0\u6CD5\u4F7F\u7528",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645019005e3,contributors:[{name:"Hugh",email:"1728902978@qq.com",commits:1}]},filePathRelative:"blogs/Nvidia-smi-Failed.md"};export{t as data};
