@@ -100,7 +100,7 @@ HTTP1.1
 
 > Mozilla 文档没有 暂不更新
 
-[截至2022年2月，HTTP/3仍然是草案状态。][1]
+> 2022.11.24 [QUIC 图解](https://quic.xargs.org/)
 
 ## HTTPS
 
